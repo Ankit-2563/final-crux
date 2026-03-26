@@ -1,0 +1,13 @@
+# Hardware build artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+.DS_Store
+
+# IDE folders
+.vscode/
+.pio/
+build/
