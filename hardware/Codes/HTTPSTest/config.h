@@ -7,7 +7,7 @@
 #define CONFIG_H
 
 // Server connection
-const char SERVER_HOST[] = "YOUR_EC2_PUBLIC_IP";   // <-- REPLACE with your EC2 IP, e.g. "54.123.45.67"
+const char SERVER_HOST[] = "65.2.30.122";
 const int  SERVER_PORT   = 443;                     // HTTPS port
 
 // Device identity
