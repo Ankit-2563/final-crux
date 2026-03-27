@@ -103,7 +103,7 @@ void setup() {
   // Set the CA certificate for server verification (TLS 1.2)
   sslClient.setCACert(ca_cert);
 
-  Serial.println("\n[READY] Will send HTTPS POST every 10 seconds");
+  Serial.println("\n[READY] Will send HTTPS POST every 60 seconds");
   Serial.print("[SERVER] https://");
   Serial.print(SERVER_HOST);
   Serial.print(":");
