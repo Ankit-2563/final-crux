@@ -17,6 +17,5 @@ const char DEVICE_ID[]   = "VVM601";
 const char API_PATH[]    = "/api/test";
 
 // How often to send data (in milliseconds)
-const unsigned long SEND_INTERVAL = 10000;  // 10 seconds (6 requests per minute)
-
+const unsigned long SEND_INTERVAL = 30000;
 #endif
