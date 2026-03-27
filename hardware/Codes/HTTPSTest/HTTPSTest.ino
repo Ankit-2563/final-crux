@@ -27,8 +27,8 @@
 #define TXD1 41       // ESP32-S3 pin 41 → 4G Module Rx
 #define powerPin 42   // ESP32-S3 pin 42 → 4G Module power
 
-// APN — leave empty for auto-detect, or set your carrier's APN
-const char apn[] = "";  // e.g. "jionet" for Jio
+// APN — "www" is the correct APN for Vodafone Idea (Vi) in India
+const char apn[] = "www";
 
 // Modem and client stack
 #ifdef DUMP_AT_COMMANDS
